@@ -8,6 +8,62 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Christopher Guindon: Eclipse Foundation Hosted Services Privacy and Acceptable Usage Policy</title>
+	<guid isPermaLink="true">https://www.chrisguindon.com/post/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy/</guid>
+	<link>https://www.chrisguindon.com/post/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy/</link>
+	<description>&lt;p&gt;The Eclipse Foundation recently made available a new &lt;a href=&quot;https://www.eclipse.org/org/documents/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy.pdf&quot;&gt;policy&lt;/a&gt;
+to make sure that our projects and hosted services are compliant with
+the General Data Protection Regulation (GDPR).&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.eclipse.org/org/documents/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy.pdf&quot;&gt;Eclipse Foundation Hosted Services Privacy and Acceptable Usage Policy&lt;/a&gt; will provide guidance to folks who operate a virtual server or a website hosted either directly
+by the Eclipse Foundation or provided via the Eclipse Foundation’s funding in support
+of an Eclipse Foundation open source project.&lt;/p&gt;
+
+&lt;p&gt;We want to ensure that all such services meet the highest standards of privacy and transparency,
+and to ensure that any collected data is used strictly in support of the activities of its open source projects.&lt;/p&gt;
+
+&lt;p&gt;There are two changes that we would like to highlight. First &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=534384#c6&quot;&gt;we have updated our position&lt;/a&gt;
+on &lt;a href=&quot;https://analytics.google.com/analytics/web/&quot;&gt;Google Analytics (GA)&lt;/a&gt;. Projects will now be allowed to create their own GA property,
+provided they agree to the conditions listed in our new &lt;a href=&quot;https://www.eclipse.org/org/documents/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy.pdf&quot;&gt;policy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Secondly we are better defining the responsibilities of the projects or committers
+responsible for hosting a service or website with the Eclipse Foundation.&lt;/p&gt;
+
+&lt;p&gt;Hosted services and Eclipse Projects can adopt this new policy by creating an issue on Eclipse Bugzilla under &lt;a href=&quot;https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Community&amp;amp;component=Hosted%20Services%20Privacy%20and%20Acceptable%20Usage%20Policy&quot;&gt;Community &amp;gt; Hosted Services Privacy and Acceptable Usage Policy&lt;/a&gt;
+where they acknowledge reading and understanding the policy.&lt;/p&gt;
+
+&lt;p&gt;Those who wish to store Personally Identifiable Information (PII) must create and include a Data Protection Impact Assessment (DPIA) document.
+The DPIA must describe what kinds of PII data will be collected and their purpose. This will have to be updated as your services evolve by
+uploading a new version on Eclipse Bugzilla.&lt;/p&gt;
+
+&lt;p&gt;If a service wishes to retain PII for longer than 1 year, they must produce a &lt;a href=&quot;https://www.chrisguindon.com/post/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy/data-retention-policy-template.pdf&quot;&gt;Data
+Retention Policy (DRP)&lt;/a&gt; that indicates how long they plan to keep each pieces of PII data
+and why they need to keep them for that long.&lt;/p&gt;
+
+&lt;p&gt;For the complete list of requirements &amp;amp; conditions, please make sure to read the &lt;a href=&quot;https://www.eclipse.org/org/documents/eclipse-foundation-hosted-services-privacy-and-acceptable-usage-policy.pdf&quot;&gt;Eclipse Foundation Hosted Services Privacy and Acceptable Usage Policy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please let us know if you have any questions or concerns regarding this new policy by sending
+your questions to &lt;a href=&quot;mailto:privacy@eclipse.org&quot;&gt;privacy@eclipse.org&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Wed, 07 Nov 2018 20:30:00 +0000</pubDate>
+</item>
+<item>
+	<title>Wayne Beaton: Eclipse Foundation Specification Process, Part I: The EDP</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5454</guid>
+	<link>https://waynebeaton.wordpress.com/2018/11/07/eclipse-foundation-specification-process-part-i-the-edp/</link>
+	<description>&lt;p&gt;The Eclipse Foundation Specification Process (EFSP) was authored as an extension to the &lt;a href=&quot;https://www.eclipse.org/projects/dev_process&quot;&gt;Eclipse Development Process&lt;/a&gt; (EDP). With this in mind, before we can discuss the EFSP, we’ll start with a quick EDP primer.&lt;/p&gt;
+&lt;p&gt;At a high (and very simplified) level, the EDP looks a little something like this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;edp_lifecycle&quot; class=&quot;alignnone size-full wp-image-5457 aligncenter&quot; src=&quot;https://waynebeaton.files.wordpress.com/2018/11/edp_lifecycle1.png?w=640&quot; /&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;All open source projects at the Eclipse Foundation &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#starting&quot;&gt;start life&lt;/a&gt; as a &lt;em&gt;proposal&lt;/em&gt;. A proposal literally proposes the creation of a new open source project: the proposal document suggests a name for the new project, and defines many things, including a description and scope of work. The proposal also serves as the nomination and election of all project committers and project leads.&lt;/p&gt;
+&lt;p&gt;The proposal is posted for community feedback for a minimum of two weeks; during that time, the Eclipse Foundation staff works behind the scenes to ensure that the project’s name can be claimed as a trademark, a mentor has been identified, the licensing scheme works, and more. The community feedback period ends with a &lt;em&gt;creation review&lt;/em&gt; which lasts for a minimum of one week. The creation review is the last opportunity for the community and the members of the Eclipse Foundation to provide feedback and express concerns regarding the project.&lt;/p&gt;
+&lt;p&gt;After successful completion of the creation review, and the project resources have been provisioned by the Eclipse Webmaster team, the project team engages in development. Project &lt;em&gt;committers&lt;/em&gt; push code to into the project’s source code repositories, and produce and disseminate &lt;em&gt;milestone&lt;/em&gt; (snapshot) builds to solicit feedback as part of an iterative development process.&lt;/p&gt;
+&lt;p&gt;When the time comes to deliver a formal &lt;em&gt;release&lt;/em&gt;, the project team produces release candidates and engages in a &lt;em&gt;&lt;a href=&quot;https://www.eclipse.org/projects/handbook/#release-review&quot;&gt;release review&lt;/a&gt;&lt;/em&gt;. A release review provides an opportunity for the project team to demonstrate to their &lt;a href=&quot;https://www.eclipse.org/projects/dev_process/#4_6_1_PMC&quot;&gt;Project Management Committee&lt;/a&gt; (PMC) that their content is ready for release, work with the Eclipse Intellectual Property Team to ensure that all of the required IP due diligence has been completed successfully, and give the community and membership a final opportunity provide feedback and express concerns. Following a successful release review, the project team will push out their final (GA) build and announce the official release to their community via established channels.&lt;/p&gt;
+&lt;p&gt;The proposal serves as the first plan for the new open source project. Subsequent releases start with the creation of some sort of plan before reengaging in the development (release) cycle. The level of formality in the planning process varies by project. For many projects, the plan is little more than an acknowledgement that further development is needed. But for some projects, planning is a well-defined open process by which the committers work with their communities to identify themes and issues that will be addressed by the release.&lt;/p&gt;
+&lt;p&gt;In my next post, I’ll discuss how this process is extended by the the EFSP. Then, I’ll start digging into the details.&lt;/p&gt;
+&lt;p&gt;You can find the community draft of the Eclipse Foundation Specification Process &lt;a href=&quot;https://docs.google.com/document/d/1ongNUyGvZPtrcuxA7RQNV2qBESFcAphQbzdk3pUIQ5s/edit?usp=sharing&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Wed, 07 Nov 2018 15:47:44 +0000</pubDate>
+</item>
+<item>
 	<title>Eclipse Announcements: Eclipse Foundation Updating Contributor and Committer Agreements</title>
 	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/LSGG8KaWokY/new-eclipse-foundation-committer-and-contributor-agreements</guid>
 	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/LSGG8KaWokY/new-eclipse-foundation-committer-and-contributor-agreements</link>
@@ -650,88 +706,6 @@ We abuse this mechanism a bit to solve our dangling reference problem: Before me
 	<description>&lt;h4&gt;Short-circuit evaluation is a popular feature of many programming languages and also part of N4JS. In this post, we show how the control-flow analysis of the N4JS-IDE deals with short-circuit evaluation, since it can have a substantial effect on the data flow and execution of a program.&lt;/h4&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-g6wjXUt3sao/W8buQnfTrcI/AAAAAAAAADk/kAsgHzdkJ1UFfWKwj-MvMgyk5_d09iwtACLcBGAs/s1600/introduction.png&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://4.bp.blogspot.com/-g6wjXUt3sao/W8buQnfTrcI/AAAAAAAAADk/kAsgHzdkJ1UFfWKwj-MvMgyk5_d09iwtACLcBGAs/s1600/introduction.png&quot; width=&quot;575&quot; /&gt;&lt;/a&gt;&lt;/div&gt;Short circuit evaluation is a means to improve runtime performance when evaluating boolean expressions. This improvement is a result of skipping code execution. The example above shows an &lt;span&gt;if&lt;/span&gt;-statement whose condition consists of two boolean expressions that combine the values of &lt;span&gt;1&lt;/span&gt;, &lt;span&gt;2&lt;/span&gt; and &lt;span&gt;3,&lt;/span&gt; and its control flow graph. Note that the number literals are placeholders for more meaningful subexpressions.&lt;br /&gt;&lt;br /&gt;First the &lt;i&gt;logical and&lt;/i&gt;, then the &lt;i&gt;logical or&lt;/i&gt; gets evaluated: &lt;span&gt;(1 &amp;amp;&amp;amp; 2) || 3&lt;/span&gt;. In case the expression &lt;span&gt;1 &amp;amp;&amp;amp; 2&lt;/span&gt; evaluates to true, the evaluation of the subclause &lt;span&gt;3&lt;/span&gt; will be skipped and the evaluation of the entire condition results to true. This skipping of nested boolean expressions is called &lt;i&gt;short circuit evaluation&lt;/i&gt;.&lt;br /&gt;&lt;br /&gt;However, instead of skipping expression &lt;span&gt;3&lt;/span&gt;, expression &lt;span&gt;2&lt;/span&gt; might be skipped. In case condition &lt;span&gt;1&lt;/span&gt; does not hold, the control flow will continue with condition &lt;span&gt;3&lt;/span&gt; right away. This control flow completely takes places within the if-condition, whereas the former short circuit targets the then block.&lt;br /&gt;&lt;br /&gt;The reasoning behind short circuit evaluation is  that the skipped code does not affect the result of the whole boolean  expression. If the left hand side of the logical or expression evaluates  to true, the whole or expression also does. Only if the left hand side  is false, the right hand side will be evaluated. Complementary, the  right hand side of a logical and expression is skipped in case the left  hand side evaluates to false.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h4&gt;Side Effects&lt;/h4&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Risks of short circuit evaluation might arise in case a subexpression has side effects: These side effects will not occur if the subexpression is skipped. However, a program that relies on side effects of expressions inside an &lt;span&gt;if&lt;/span&gt;-condition can be called fragile (or adventurous). In any case it is recommended to write side-effect free conditions.&lt;/div&gt;&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-0JcnBeJ-1Rk/W8buRqUWCvI/AAAAAAAAADw/zYwwORwyclEdUHm5HQex4aKR5UPHlATIACLcBGAs/s1600/side_effects.png&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://2.bp.blogspot.com/-0JcnBeJ-1Rk/W8buRqUWCvI/AAAAAAAAADw/zYwwORwyclEdUHm5HQex4aKR5UPHlATIACLcBGAs/s1600/side_effects.png&quot; width=&quot;575&quot; /&gt;&lt;/a&gt;&lt;/div&gt;Have a look at the example above. In case variable &lt;span&gt;i&lt;/span&gt; has a value of zero, the right hand side expression &lt;span&gt;i++&lt;/span&gt; is executed, otherwise, it is skipped. The side effect here is the post-increment the value of &lt;span&gt;i&lt;/span&gt;. If the value of &lt;span&gt;i&lt;/span&gt; is other than zero, this value will be printed out. Otherwise, the value will be incremented but not printed. The control flow shows this behavior with the edge starting at &lt;span&gt;i&lt;/span&gt; and targeting the symbol &lt;span&gt;console&lt;/span&gt;.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h4&gt;Loops&lt;/h4&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-1L_PrkVxmYg/W8buQulSsEI/AAAAAAAAADc/Dh9U1bA9ZboCQP52QjjPIync_DTyJL2AQCLcBGAs/s1600/loops.png&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://2.bp.blogspot.com/-1L_PrkVxmYg/W8buQulSsEI/AAAAAAAAADc/Dh9U1bA9ZboCQP52QjjPIync_DTyJL2AQCLcBGAs/s1600/loops.png&quot; width=&quot;575&quot; /&gt;&lt;/a&gt;&lt;/div&gt;Loop conditions also benefit from short circuit evaluation. This is important to know when reasoning about the all possible control flow paths through the loop: Each short circuit will introduce another path. Combining all of them makes data flow in loops difficult to understand in case of side effects in the subconditions.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h4&gt;Creative use of short circuit evaluation&lt;/h4&gt;&lt;div&gt;&lt;br /&gt;Misusing short circuit evaluation can mimic if-statements by using  expressions but without using  the language feature of conditional expressions (i.e. &lt;span&gt;condition() ? then() : else()&lt;/span&gt;). This could be used when if-statements should be executed e.g. when passing  arguments to method calls, or when computing the update part of  for-loops.&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-bQAq2BWre9s/W8buRTY5OJI/AAAAAAAAADo/uzZ-OqHynNcfrh1k6jYMVbN2MkhiI9xtQCLcBGAs/s1600/modelling.png&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot; width=&quot;575&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://2.bp.blogspot.com/-bQAq2BWre9s/W8buRTY5OJI/AAAAAAAAADo/uzZ-OqHynNcfrh1k6jYMVbN2MkhiI9xtQCLcBGAs/s1600/modelling.png&quot; width=&quot;575&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;The picture above shows the two versions: the first uses an if-statement and the second uses an  expression statement. These two statements call the functions &lt;span&gt;condition&lt;/span&gt;, &lt;span&gt;then&lt;/span&gt; and &lt;span&gt;end&lt;/span&gt;. Depending on the return value of &lt;span&gt;condition&lt;/span&gt;, the function &lt;span&gt;then&lt;/span&gt; is  executed or not. Consequently, the printouts are either &quot;condition then  end&quot; or &quot;condition end&quot;, depending on the control flow.&lt;br /&gt;&lt;br /&gt;The corresponding control flows are depicted on the right: The upper three lines refer to the if-statement, and the lower three lines to the expression statement. They reveal that the expression statement  behaves similar to the if-statement. Note that the control flow edge  in the last line that skips the nodes &lt;span&gt;end&lt;/span&gt; and &lt;span&gt;end()&lt;/span&gt; is never traversed since the logical or expression always evaluates to true.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;by Marcus Mews&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;</description>
 	<pubDate>Wed, 17 Oct 2018 09:28:18 +0000</pubDate>
 	<author>noreply@blogger.com (Project N4JS)</author>
-</item>
-<item>
-	<title>Mike Milinkovich: Introducing the Jakarta EE Specification Process</title>
-	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1466</guid>
-	<link>https://eclipse-foundation.blog/2018/10/16/jakarta-spec-process/</link>
-	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;I am very happy to announce that we are publishing a draft of the &lt;/span&gt;&lt;a href=&quot;https://docs.google.com/document/d/1ongNUyGvZPtrcuxA7RQNV2qBESFcAphQbzdk3pUIQ5s/edit&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Foundation Specification Process&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for community review and feedback. This specification process will be used by Jakarta EE as the new open specification process, replacing the JCP process previously used for Java EE. It is also expected that this new process will be of interest to other Eclipse working groups. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We are really looking forward to your feedback, which you can do via the Jakarta EE Community &lt;/span&gt;&lt;a href=&quot;https://accounts.eclipse.org/mailing-list/jakarta.ee-community&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;mailing list&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; (preferred), or on the &lt;/span&gt;&lt;a href=&quot;https://docs.google.com/document/d/1ongNUyGvZPtrcuxA7RQNV2qBESFcAphQbzdk3pUIQ5s/edit&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;document comments&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.  The feedback provided will be used as input to finalizing a first version of the specification process and its adoption by Jakarta EE and other working groups at the Eclipse Foundation.  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As you are reviewing this draft specification process, please keep in mind the following key points about the approach that was taken by the Specification Committee. &lt;/span&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We want to design a specification process to replace the JCP. While there are many differences with the JCP, the key objective was to make the whole process as lightweight as possible. &lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We want the specification process to be as close to open source development as possible. This is actually not a trivial exercise, as by its very nature drafting specifications is a somewhat different process.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;This is the &lt;/span&gt;&lt;b&gt;Eclipse&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; Spec Process, so we want to reuse the &lt;/span&gt;&lt;a href=&quot;https://www.eclipse.org/projects/dev_process/development_process.php&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse Development Process&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; wherever possible, and we want to ensure that the general flow and tone of the EDP is followed. &lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We want to create a process that allows code-first development. Specifically, we want to enable a culture where experimentation can happen in open source and then have specifications be based on those experiences. &lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We want the specifications that result from this process to be as high quality as possible. In particular, this means that we need to take care of the intellectual property flows, and to protect the community’s work from bad actors. This requirement manifests as two fundamentally important differences from the EDP: &lt;/span&gt;
-&lt;ul&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Specification Committee approval is required for releases from Spec Projects, in addition to the normal PMC approval; and &lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We introduce the notion of “Participants” who are committers who represent specific member companies on a Spec Project. This is necessary to ensure that the IP contributions (particularly patents) from companies are properly captured by the process.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;All of us at the Eclipse Foundation would like to recognize the tireless efforts of the members of the Specification Committee. A lot of hard work has gone into this document, and it’s very much appreciated. We are certain that Jakarta EE, and many other Eclipse technologies, benefit from the thoughtful efforts of this Committee.  In particular, we would like to thank the following Specification Committee members and alternates: &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Fujitsu: Kenji Kazumura​, Mikel DeNicola&lt;br /&gt;
-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;IBM: Dan Bandera​, Kevin Sutter&lt;br /&gt;
-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Oracle: Bill Shannon​, Ed Bratt​, Dmitry Kornilov&lt;br /&gt;
-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Payara: Steve Millidge​, Arjan Tijms&lt;br /&gt;
-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Red Hat: Scott Stark, Mark Little&lt;br /&gt;
-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Tomitribe: David Blevins​, Richard Monson-Haefel&lt;br /&gt;
-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;PMC Representative: Ivar Grimstad&lt;br /&gt;
-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Elected Members: Alex Theedom, Werner Keil​ &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;I also wish to recognize Tanja Obradovic and Wayne Beaton from the Eclipse Foundation team who have driven the process throughout – many thanks to you both!&lt;/span&gt;&lt;/p&gt;</description>
-	<pubDate>Tue, 16 Oct 2018 19:18:07 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Ditto: Example demonstrating connectivity to an MQTT broker</title>
-	<guid isPermaLink="true">https://www.eclipse.org/ditto/2018-10-16-example-mqtt-bidirectional.html</guid>
-	<link>https://www.eclipse.org/ditto/2018-10-16-example-mqtt-bidirectional.html</link>
-	<description>&lt;p&gt;Eclipse Ditto can now connect to MQTT 3.1.1 brokers.&lt;/p&gt;
-
-&lt;p&gt;Perfect timing to happily welcome a new colleague to our team behind Eclipse Ditto: &lt;a href=&quot;https://github.com/joosdavid&quot;&gt;David&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In order to get familiar with Ditto and the development with digital twins, David was assigned with one of his first 
-tasks to get his hands on one of our newest features, &lt;a href=&quot;https://www.eclipse.org/ditto/connectivity-protocol-bindings-mqtt.html&quot;&gt;MQTT connectivity&lt;/a&gt; 
-which was released recently with milestone &lt;a href=&quot;https://www.eclipse.org/ditto/2018-09-27-milestone-announcement-080-M2.html&quot;&gt;0.8.0-M2&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;On his journey into digital twin land he made a great example with an ESP8266 powered board connected via an MQTT broker
-to Ditto and published it to the 
-&lt;a href=&quot;https://github.com/eclipse/ditto-examples/tree/master/mqtt-bidirectional&quot;&gt;Eclipse Ditto examples repository&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This example is about how to communicate between device and solution in a two way pattern through Ditto using MQTT. 
-  This means we will add a policy, a thing and a MQTT connection to Ditto. 
-  When Ditto ist set up and working, we will create real world device (“octopus board”) and connect it to it’s 
-  digital twin via MQTT.
-  &lt;br /&gt;&lt;br /&gt;
-  At the end, we will create a basic frontend webapp. 
-  The webapp will automatically connect to Ditto when you type in your credentials, automatically pull your things 
-  and show them in a list.
-  &lt;br /&gt;
-  You can create, modify and delete devices in the webapp and if there is a real world device connected to the thing 
-  in the list, you can send it a command message to control any feature on it. 
-  The list of things will always be up-to-date when you listen to server-sent-events, which you can activate easily 
-  with pressing a button.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;figure&gt;&lt;img alt=&quot;Eclipse Ditto bidirectional MQTT diagram&quot; class=&quot;docimage&quot; src=&quot;https://raw.githubusercontent.com/eclipse/ditto-examples/master/mqtt-bidirectional/img/diagram.jpg&quot; /&gt;Source: https://github.com/eclipse/ditto-examples&lt;/figure&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We will use an Octopus-board with an ESP8266 on it. It has several sensors built in, but for simplicity we will
- just use it’s temperature and altitude sensor. 
- &lt;br /&gt;
- To show the functionality of Eclipse Ditto messages, we will switch on/off a LED on the Octopus-board through it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If you have any wishes, improvements, are missing something
-or just want to get in touch with us, you can use one of
-our &lt;a href=&quot;https://eclipse.org/ditto/feedback.html&quot;&gt;feedback channels&lt;/a&gt;.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img alt=&quot;Ditto&quot; class=&quot;docimage&quot; src=&quot;https://www.eclipse.org/ditto/images/ditto.svg&quot; /&gt;&lt;/figure&gt;
-
-&lt;p&gt;–&lt;br /&gt;
-The Eclipse Ditto team&lt;/p&gt;</description>
-	<pubDate>Tue, 16 Oct 2018 04:00:00 +0000</pubDate>
 </item>
 
 </channel>
