@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.zsy.novel.entity.Chacter"/>
+<fullyQualifiedTypeName name="com.zsy.com.interfaces.ChacterInterface"/>
+<fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
+<fullyQualifiedTypeName name="org.jsoup.nodes.Document"/>
+</qualifiedTypeNameHistroy>

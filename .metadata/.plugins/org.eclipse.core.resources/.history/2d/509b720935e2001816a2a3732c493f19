@@ -1,0 +1,9 @@
+package entity;
+/**
+ * 小说的
+ * @author ZSY
+ *
+ */
+public class novel {
+
+}

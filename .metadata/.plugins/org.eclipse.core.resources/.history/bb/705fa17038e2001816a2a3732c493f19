@@ -1,0 +1,12 @@
+package com.zsy.com.interfaces;
+
+import com.zsy.novel.entity.Chacter;
+
+/**
+ * 章节的接口，传入一个网址，得到该网址的信息
+ * @author ZSY
+ *
+ */
+public interface chacter {
+	public Chacter getChacter(String url);
+}

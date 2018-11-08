@@ -1,0 +1,30 @@
+package entity.copy;
+/**
+ * 小说的内容
+ * @author ZSY
+ *
+ */
+public class novel {
+	private String novelName;	//小说的内容
+	private String chacterTitle;//小说的章节标题
+	private String url;			//标题的网址
+	public String getNovelName() {
+		return novelName;
+	}
+	public void setNovelName(String novelName) {
+		this.novelName = novelName;
+	}
+	public String getChacterTitle() {
+		return chacterTitle;
+	}
+	public void setChacterTitle(String chacterTitle) {
+		this.chacterTitle = chacterTitle;
+	}
+	public String getUrl() {
+		return url;
+	}
+	public void setUrl(String url) {
+		this.url = url;
+	}
+	
+}

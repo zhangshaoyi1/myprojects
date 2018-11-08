@@ -1,0 +1,26 @@
+package com.zsy.novel.controller;
+
+import java.io.IOException;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+
+import com.zsy.com.interfaces.ChacterInterface;
+import com.zsy.novel.entity.Chacter;
+
+public class chacterController implements ChacterInterface{
+
+	public Chacter getChacter(String url) {
+		try {
+			Document doc = Jsoup.connect(url)
+			.userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36")
+					.get();
+			Chacter chacter =new Chacter();
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+}

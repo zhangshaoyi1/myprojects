@@ -1,0 +1,9 @@
+package com.zsy.com.interfaces;
+/**
+ * 章节的接口，传入一个网址，得到该网址的信息
+ * @author ZSY
+ *
+ */
+public interface chacter {
+
+}

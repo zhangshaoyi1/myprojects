@@ -1,0 +1,9 @@
+package entity;
+
+public class chacters {
+	private String chacter;		//章节名
+	private String url;			//章节网址
+	private String text;		//章节内容
+	
+
+}

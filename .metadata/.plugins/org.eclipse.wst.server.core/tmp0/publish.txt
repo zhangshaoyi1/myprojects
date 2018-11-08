@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Nov 05 14:44:55 CST 2018
+org.eclipse.jst.jee.server\:jeesite-master=E\:\\project\\Tomcat\\webapps\\jeesite-master
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ZSY\\.m2\\repository\\org\\springframework\\spring-web\\4.1.9.RELEASE\\spring-web-4.1.9.RELEASE.jar=E\:\\project\\Tomcat\\webapps\\jeesite-master\\WEB-INF\\lib\\spring-web-4.1.9.RELEASE.jar

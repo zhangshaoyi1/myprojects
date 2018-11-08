@@ -1,0 +1,38 @@
+package entity;
+/**
+ * 小说的章节实体，包括小说的章节名、章节内容、上一章节地址、下一章节地址
+ * @author ZSY
+ *
+ */
+public class chacters {
+	private String chacter;		//章节名
+	private String text;		//章节内容
+	private String prev;		//上一章节地址
+	private String next;		//下一章节地址
+	private novel novel;		//
+	public String getChacter() {
+		return chacter;
+	}
+	public void setChacter(String chacter) {
+		this.chacter = chacter;
+	}
+	public String getText() {
+		return text;
+	}
+	public void setText(String text) {
+		this.text = text;
+	}
+	public String getPrev() {
+		return prev;
+	}
+	public void setPrev(String prev) {
+		this.prev = prev;
+	}
+	public String getNext() {
+		return next;
+	}
+	public void setNext(String next) {
+		this.next = next;
+	}
+	
+}

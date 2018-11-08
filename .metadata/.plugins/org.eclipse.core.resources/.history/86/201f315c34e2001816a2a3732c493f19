@@ -1,0 +1,19 @@
+package entity;
+
+public class chacters {
+	private String chacter;		//章节名
+	private String text;		//章节内容
+	public String getChacter() {
+		return chacter;
+	}
+	public void setChacter(String chacter) {
+		this.chacter = chacter;
+	}
+	public String getText() {
+		return text;
+	}
+	public void setText(String text) {
+		this.text = text;
+	}
+
+}

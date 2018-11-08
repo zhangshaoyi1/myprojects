@@ -1,0 +1,5 @@
+package com.zsy.com.interfaces;
+
+public interface chacter {
+
+}

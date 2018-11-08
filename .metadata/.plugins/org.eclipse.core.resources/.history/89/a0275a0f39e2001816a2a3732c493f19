@@ -1,0 +1,13 @@
+package com.zsy.novel.controller;
+
+import com.zsy.com.interfaces.ChacterInterface;
+import com.zsy.novel.entity.Chacter;
+
+public class chacterController implements ChacterInterface{
+
+	public Chacter getChacter(String url) {
+		
+		return null;
+	}
+
+}
